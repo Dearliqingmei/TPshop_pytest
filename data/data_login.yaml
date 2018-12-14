@@ -1,0 +1,20 @@
+test_login_01:
+  username: "13888888888"
+  password: "123456"
+  verification: '8888'
+test_login_02:
+  username: "13888886688"
+  password: "123456"
+  verification: '8888'
+test_login_03:
+  username: "13867888888"
+  password: "123456"
+  verification: '8888'
+test_login_04:
+  username: "13888898888"
+  password: "123456"
+  verification: '8888'
+test_login_05:
+  username: "13888588888"
+  password: "123456"
+  verification: '8888'
