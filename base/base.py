@@ -55,7 +55,7 @@ class Base(object):
     def base_screenhot(self):
         self.base_screen = sys._getframe(0).f_code.co_name
         self.path_screen = os.getcwd() + os.sep + "screenhot" + os.sep + (
-                    self.base_screen + ("%s" % time.strftime("%Y-%m-%d %H_%M_%S"))).jpg
+                    self.base_screen + ("%s..jpg" % time.strftime("%Y-%m-%d %H_%M_%S")))
         self.driver.get_screenshot_as_file(self.path_screen)
 
     def base_logging(self):

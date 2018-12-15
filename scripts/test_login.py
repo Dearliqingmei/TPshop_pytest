@@ -23,11 +23,11 @@ def get_data():
 
 class Testlogin():
 
-    def setup_class(self):
+    def setup(self):
         self.testlogin = PageIn().page_get_pagelogin(scripts.driver, scripts.url_login)
         self.testlogin.page_open()
 
-    def teardown_class(self):
+    def teardown(self):
         self.testlogin.driver.quit()
 
     @pytest.mark.parametrize("username,password,verification", get_data())
